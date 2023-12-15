@@ -1,0 +1,514 @@
+body {
+    background-color: white;
+    color: #daa520;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+ font-family: "Georgia", serif;
+    color: #daa520;
+    margin: 0;
+}
+
+#header-buttons a {
+    color: #daa520;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+#header-buttons a:hover {
+    color: white;
+
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    text-align: center;
+    padding: 20px;
+}
+
+#sidebar {
+    background-color: white;
+    color: #daa520;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+
+a {
+    color: #daa520;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #daa520;
+    color: #daa520;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: white;
+}
+
+#contact-info, #contact-form {
+    width: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+
+#contact-info {
+    background-color: white;
+    color: #daa520;
+}
+
+#contact-form {
+    background-color: #daa520;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: white;
+    color: #daa520;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #daa520;
+    color: white;
+}
+
+#about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#about-text {
+    flex: 1;
+}
+
+#about-image img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.small-image {
+    max-width: 200px; 
+    height: auto; 
+}
+
+
+img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+
+
+
+
+#about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; 
+}
+
+#about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+#about-image img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
+
+.quote-link {
+    display: block; /* Display as a block-level element for spacing */
+    text-align: center; /* Center-align the text */
+    background-color: #daa520; /* Background color for the link */
+    color: white; /* Text color */
+    padding: 10px; /* Adjust the padding as needed */
+    text-decoration: none;
+    margin: 10px auto; /* Center-align horizontally */
+    width: 200px; /* Set the width as needed */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.quote-link:hover {
+    background-color: white; /* Background color on hover */
+    color: #daa520; /* Text color on hover */
+}
+
+
+
+
+
+.services-heading {
+    text-align: center;
+    border-bottom: 2px solid #000; /* Adjust the color and style as needed */
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+.golden-brown-background {
+    background-color: black 
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 50px; 
+}
+
+#top-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#top-nav ul li {
+    margin: 0 10px;
+}
+
+#top-nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.call-us-button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.call-us-button.highlight {
+    background-color: #3a8e5a; 
+}
+
+#nav-toggle {
+    display: none;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #nav-toggle {
+        display: block;
+        
+    }
+
+    #top-nav {
+        display: none; 
+    }
+
+    #top-nav.active {
+        display: block; 
+    }
+
+    .header-content {
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.blog-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-posts {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blog-post {
+    margin-bottom: 30px;
+}
+
+.blog-post h3 {
+    color: #333;
+}
+
+.post-date {
+    font-style: italic;
+    color: #666;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+.service {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.service img {
+    width: 40%; 
+    height: auto;
+    margin-right: 20px;
+}
+
+.service-content {
+    width: 60%; 
+}
+
+
+.services-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+}
+
+.service-detail {
+    display: inline-block;
+    text-align: left;
+}
+
+.service-detail img {
+    width: 100%; 
+    height: auto;
+}
+
+
+.services-heading {
+    margin-bottom: 20px; 
+    border-bottom: none; 
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.faq-answer {
+    display: none;
+    padding: 5px;
+    margin-top: 5px;
+    
+}
+
+.faq-question {
+    cursor: pointer;
+   
+}
+
+
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#contact-info, #contact-form {
+    flex: 1;
+    margin: 10px;
+}
+
+#contact-form {
+    max-width: 500px; /* Adjust the width of the form as needed */
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007
+
+#thank-you-message {
+    text-align: center;
+    padding: 50px;
+    margin: auto;
+    max-width: 600px;
+}
+
+#thank-you-message h2 {
+    margin-bottom: 20px;
+    color: #007bff; /* or any color that fits your site's theme */
+}
+
+#thank-you-message p {
+    font-size: 1.2em;
+}
+
+
+<style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      gmp-map {
+        height: 100%;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+.header-content, .content-wrapper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+main {
+    padding: 20px;
+}
+#contact-info, #contact-form, #map-container {
+    margin-bottom: 20
+
+
+
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: boarder-box;
+font fmaily: 'poppins', sans-serif;
+
+}
+
+.container{
+width: 100%
+height: 100vh;
+display; flex;
+align-items: center;
+justify-contents: center;
+flex-direction: column;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
